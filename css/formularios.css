@@ -1,0 +1,141 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 98%;
+    height: 98%;
+}
+
+.banner{
+    background-color: #4482c3;
+    border-radius: 10px;
+    height: 29vh;
+    margin-bottom: 0%;
+    position: relative;
+}
+.banner form{
+    display: flex;
+    justify-content: end;
+}
+.banner div{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner div img{
+    width: 50%;
+    height: 18vh;
+}
+.banner div p{
+    margin: 0%;
+    text-align: center;
+    margin: 1%;
+}
+.banner input{
+    border: 1px solid #24ae5f;
+    position: relative;
+    display: flex;
+    margin: .3%;
+    height: 6vh;
+    width: 15vh;
+    border-radius: 10px;    
+    background-color: #95a5a5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+}
+
+
+.formulario{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    
+}
+.formulario form{
+    background-color: #bdc3c7;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.formulario h2{
+    margin-bottom: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.formulario form p{
+    width: max-content;    
+}
+
+.formulario input{
+    border-radius: 10px;
+    height: 25px;
+}
+.formulario select{
+    border-radius: 10px;
+    height: 25px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 1%;
+    margin: 1%;
+    height: 70%;
+    justify-content: space-around;    
+}
+
+.boton{
+    background-color: #24ae5f;
+    position: absolute;
+    width: 25vh;
+    height: 7vh;
+    bottom: 1vh;
+}
+
+
+
+
+
+
+footer{    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 1%;   
+    opacity: .9;       
+}
+footer ul{
+    border-radius: 10px;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0%;
+    padding: 0%;
+    background-color: #4482c3;     
+}
+footer ul li{
+    display: flex;
+    align-items: center;
+}
+footer ul li a{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+}

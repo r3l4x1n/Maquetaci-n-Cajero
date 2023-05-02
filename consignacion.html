@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/formularios.css">
+    <title>Consignaciones</title>
+</head>
+
+<body>
+
+    <section class="banner">
+        <form action="/index.html">
+            <input type="submit" value="Cerrar Sesion">
+        </form>
+        <div>
+            <img src="/img/consignacion.png" alt="">
+            <p>PUNKYBANK CONSIGNACIONES</p>
+        </div>
+    </section>
+    <section class="formulario">
+        <form action="/consignacion.html">
+            <h2>CONSIGNAR DINERO</h2>
+            <p>Numero De Cuenta: <input type="number" required></p>
+            <p>Seleccione Tipo De Cuenta:
+                <select name="tipocuenta" id="tipocuenta" required>
+                    <option value=""></option>
+                    <option value="">Cuenta Ahorro</option>
+                    <option value="">Cuenta Corriente</option>
+                    <option value="">Cuenta Nomina</option>
+                </select>
+            </p>
+            <p class="prueba">Seleccione Forma De Pago:
+                <select name="formapago" id="formapago" required>
+                    <option value=""></option>
+                    <option value="">Efecitvo</option>
+                    <option value="">Tansferencia</option>
+                    <option value="">Lector QR</option>
+                </select>
+            </p>
+            <p>Valor A Consifnar $: <input type="number" required></p>
+            <br>
+            <input class="boton" type="submit" value="Realizar Consignacion">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <ul>
+            <li>&#128640 GitHub: <a href="https://github.com/r3l4x1n/r3l4x1n"
+                    target="_blank">https://github.com/r3l4x1n/</a></li>
+            <li>&#128231 e-mail: <a href="mailto:nfzapataca@cesde.net">nfzapataca@cesde.net</a></li>
+            <li>Copyright 2023&#174</li>
+        </ul>
+    </footer>
+</body>
+
+</html>

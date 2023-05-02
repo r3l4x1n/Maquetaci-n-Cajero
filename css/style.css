@@ -1,0 +1,208 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 98%;
+    height: 97%;
+    margin: 1%;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    height: 97%;  
+    background-color: #bdc3c7;  
+    border-radius: 10px;
+}
+.img{
+    position: relative;
+    width: 15%;
+}
+
+.registro{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    height: 455px;    
+    border-radius: 10px;  
+}
+.registro input{
+    display: flex;
+    width: 50%;
+    margin: 2px;
+    border-radius: 10px;
+    text-align: left;
+    padding: .5%;
+}
+.texto{
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+}
+.boton{
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    background-color: #24ae5f;
+    opacity: .9;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++OPERACIONES++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.out-sesion{
+    position: absolute;
+    display: flex;
+    margin: .3%;
+    height: 7%;
+    width: 20%;
+    top: 0;
+    right: 0;    
+}
+.out-sesion input{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #4482c3;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-imgs{
+    position: absolute;
+    top: 8vh;
+    display: flex;
+    height: 35%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.container-imgs div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-imgs div p{
+    margin: 1%;
+}
+
+
+.punkyping{
+    position: relative;
+    width: 20%;
+    opacity: .9;
+}
+.logo{
+    position: relative;
+    width: 70%;
+    height: 90%;
+    margin: 1%;
+}
+.credit{
+    position: relative;
+    width: 20%;
+}
+
+.saludo{ 
+    position: absolute;
+    width: 35vh;
+    top: 40vh;
+    margin: 0%;
+    
+}
+.saludo p{
+    border:  1px solid #4482c3;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: #24ae5f;
+    text-align: center; 
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin: 0%;
+}
+
+
+.operations{
+    position: absolute;
+    top: 47vh;
+    display: flex; 
+    flex-wrap: wrap;
+    width: 99%;
+    height: 38vh;   
+    justify-content: space-around; 
+}
+.operations_div{
+    position: relative;
+    display: flex;
+    height: 49%;
+    width: 70%;
+    left: -20px;
+    align-items: center;
+}
+.operations_container{
+    position: relative;
+    display: flex;    
+    width: 60vh;
+    height: 46%;
+    margin: 1%;
+}
+.operations_container a{
+    border: 1px solid #285680;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 58%;
+}
+.operations_imgs{
+    display: flex;
+    position: relative;
+    
+    border-radius: 10px;
+    display: flex;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++FOOTER+++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+footer{    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 1%;   
+    opacity: .9;
+    
+}
+footer ul{
+    border-radius: 10px;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0%;
+    padding: 0%;
+    background-color: #4482c3;
+}
+footer ul li{
+    display: flex;
+    align-items: center;
+}
+footer ul li a{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+}
